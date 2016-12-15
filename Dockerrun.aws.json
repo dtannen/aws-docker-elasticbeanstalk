@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "YOUR BUCKET",
+    "Key": "YOUR KEY"
+  },
+  "Image": {
+    "Name": "YOUR DOCKER IMAGE",
+    "Update": "true"
+  },
+  "Volumes": [],
+  "Ports": [
+    {
+      "ContainerPort": "YOUR SERVICE PORT"
+    }
+  ]
+}
